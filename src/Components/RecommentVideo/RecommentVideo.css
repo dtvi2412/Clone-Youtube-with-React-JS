@@ -1,0 +1,34 @@
+
+.recommentVideos{
+    flex: 0.8 1;
+    background-color: #f9f9f9;
+    padding: 40px 20px 0;
+
+  
+}
+.recommentVideosFalse{
+    flex: 1 1;
+    background-color: #f9f9f9;
+    padding: 40px 20px 0;
+}
+.recommentVideos__text{
+   
+    margin:5px 0;
+    font-size:1.8rem;
+    font-weight: bold;
+}
+.recommentVideos__videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width:960px){
+    .recommentVideos{
+        flex: 1 1;
+    }
+    .recommentVideos__videos{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+}

@@ -1,0 +1,91 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: white;
+
+    z-index: 100;
+}
+.header__menuIcon{
+    cursor: pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.header__menuIcon img{
+    /* width: 70px; */
+    height: 25px;
+    object-fit: contain;
+    margin-left: 25px;
+}
+
+.header__input{
+    display: flex;
+    align-items: center;
+
+    width: 40%;
+    border: 1px solid #d3d3d3;
+}
+.header__input input{
+    flex:1 1;
+    padding:5px 10px;
+    border:none;
+}
+.header__input input:focus{
+    outline: none;
+    border: none;
+}
+.header__input  .MuiSvgIcon-root{
+    width: 50px ;
+  
+    background-color: #fafafa;
+    border-left:1px solid #d3d3d3;
+    color:grey;
+    cursor: pointer;
+}
+
+.header__icons{
+    display: flex;
+    align-items: center;
+    
+}
+.header__icons .MuiSvgIcon-root{
+    margin-right:5px;
+    cursor: pointer;
+}
+.header__icons .MuiAvatar-root{
+    cursor: pointer;
+}
+@media only screen and (max-width:620px){
+    .header{
+        /* display: flex;
+        justify-content: flex-start;
+        align-items: center; */
+    }
+    .header__icons .MuiSvgIcon-root{
+        /* display: none; */
+    }
+    .header__input  .MuiSvgIcon-root{
+        border-left:none;
+        background-color: transparent;
+    }
+    .header__input {
+        border:none;
+        /* margin-left:auto; */
+
+    }
+    .header__input input{
+        display: none;
+     
+      
+    }
+    
+}
+

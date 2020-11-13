@@ -1,0 +1,23 @@
+.videoCard{
+    margin-bottom: 40px;
+    width:270px;
+
+    cursor: pointer;
+}
+.videoCard__thumnail{
+    height: 140px;
+    width: 250px;
+
+    /* object-fit: cover; */
+
+}
+.videoCard__info{
+    display: flex;
+    
+}
+.videoCard__text{
+    margin-left:15px;
+}
+.videoCard__text h4:hover{
+    text-decoration: underline;
+}
